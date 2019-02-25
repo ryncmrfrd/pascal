@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='UTF-8'>
+    <title>New HTML Document</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='picnic.css'>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+    <header>
+        <h3>Pascal's Triangle Calculator</h3>
+    </header>
+    <div class='form'>
+        <input class="number" type="number">
+        <button onclick="calculate($('.number').val())">Submit</button>
+    </div>
+    <main class='results'></main>
+    <footer>
+        <h3><span class="label">skrrt</span></h3>
+    </footer>
+
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+    <script stype='text/js' src='triangle.js'></script>
+</body>
+</html>
