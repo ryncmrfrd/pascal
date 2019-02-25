@@ -1,7 +1,9 @@
-header{height: 10vh; display: flex; align-items: center; justify-content: center; text-align: center;}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{font-family: 'Roboto', sans-serif;}
+header{height: 10vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;}
 .form{height: 5vh; display: flex; align-items: center; justify-content: center; width: 100%;}
 .number{width: 100px; margin-right: 10px;}
-.results{text-align: center; height: 84vh; overflow: hidden;}
+main{text-align: center; height: 85vh; overflow: hidden;}
 .scroll{overflow: scroll;}
 .label{margin-top: 20px; font-size: 1em;}
 footer{display: flex; justify-content: center; position: absolute; bottom: 0; width: 100%;}
