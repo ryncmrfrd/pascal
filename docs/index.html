@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='UTF-8'>
+    <title>Pascal's Triangle Generator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk=" crossorigin="anonymous" />
+</head>
+<body>
+    <header class="section has-text-centered">
+        <h1 class="title">Pascal's Triangle Calculator</h3>
+        <a class="button is-text" href="https://github.com/ryncmrfrd/pascal" target="_blank">View on Github</a>
+        <a class="button is-text has-text-link" href="https://ryncmrfrd.com">Built By Ryan Comerford</a>
+    </header>
+    <section class="section" style="padding-top:0;padding-bottom:0">
+        <div class="columns is-centered is-vcentered is-mobile">
+            <form id="form" class="column is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd">
+              <div class="field is-grouped">
+                    <input style="margin-right:5px" class="input" id="pascalNumber" type="number" placeholder="5" min="1" max="999">
+                    <button style="margin-left:5px" class="button is-link">Submit</button>
+              </div>
+            </form>
+        </div>  
+    </section>
+    <section class="section has-text-centered">
+        <h1 class="subtitle is-5" id="result" style="line-height:1.5"></h1>
+    </section>
+    <script src='index.js'></script>
+</body>
+</html>

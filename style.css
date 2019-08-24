@@ -1,9 +1,0 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-body{font-family: 'Roboto', sans-serif;}
-header{height: 15vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;}
-.form{height: 5vh; display: flex; align-items: center; justify-content: center; width: 100%;}
-.number{width: 100px; margin-right: 10px;}
-main{text-align: center; height: 75vh; overflow: hidden;}
-.scroll{overflow: scroll;}
-.label{font-size: 1em;}
-footer{height: 10vh; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;}
