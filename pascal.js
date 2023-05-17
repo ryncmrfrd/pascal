@@ -1,8 +1,9 @@
 /**
-    CALCULATING A PASCAL'S TRIANGLE IN JS
-    @author Ryan Comerford <https://ryncmrfrd.com>
-*/
-
+ * Generates n Rows of a Pascal's Triangle
+ * @author Ryan Comerford <https://ryncmrfrd.com>
+ * @param {int} n - The number of triangle rows to generate
+ * @return {int[][]} A 2D array of length n
+ */
 p=n=>{
     r=[[1]];
     for(i=n-1;i--;){
